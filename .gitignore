@@ -1,0 +1,12 @@
+# Binarios / compilados
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# VS / VSCode
+.vs/
+.vscode/
+
+# Otros temporales
+*.log

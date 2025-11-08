@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{44b28f5e-8789-4e85-a1e5-d69240bdc738}</ProjectGuid>
+    <RootNamespace>ProgramacionOrientadaAObjetos4to</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="ArchivoEjemplo2.cpp" />
+    <ClCompile Include="ArchivosEjemplo.cpp" />
+    <ClCompile Include="BinarySearchTree.cpp" />
+    <ClCompile Include="ClaseConstructoresYDestructores.cpp" />
+    <ClCompile Include="ClaseVirtualPura.cpp" />
+    <ClCompile Include="CosasViejasDelMain.cpp" />
+    <ClCompile Include="DoubleLinkedList.cpp" />
+    <ClCompile Include="DynamicArray.cpp" />
+    <ClCompile Include="EjerciciosMemoriaDinamica.cpp" />
+    <ClCompile Include="ExplicacionDirectivasDePreprocesador.cpp" />
+    <ClCompile Include="ExplicacionIfndef.cpp" />
+    <ClCompile Include="ExplicacionStatic.cpp" />
+    <ClCompile Include="ExplicacionTemplates.cpp" />
+    <ClCompile Include="Gato.cpp" />
+    <ClCompile Include="Humano.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="OtherMain.cpp" />
+    <ClCompile Include="ParametrosPorReferenciaComoSalidaDeFuncion.cpp" />
+    <ClCompile Include="Perro.cpp" />
+    <ClCompile Include="Pollo.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="SentinelLinkedList.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="StackComposicion.cpp" />
+    <ClCompile Include="TareaEjemplo.cpp" />
+    <ClCompile Include="UserLoginData.cpp" />
+    <ClCompile Include="Usuario.cpp" />
+    <ClCompile Include="UsuarioAdmin.cpp" />
+    <ClCompile Include="UsuarioAlumno.cpp" />
+    <ClCompile Include="UsuarioProfesor.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="WebPacket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="ArchivoEjemplo2.h" />
+    <ClInclude Include="ArchivosEjemplo.h" />
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="ClaseConstructoresYDestructores.h" />
+    <ClInclude Include="ClaseVirtualPura.h" />
+    <ClInclude Include="CosasViejasDelMain.h" />
+    <ClInclude Include="DoubleLinkedList.h" />
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="EjerciciosMemoriaDinamica.h" />
+    <ClInclude Include="ExplicacionDirectivasDePreprocesador.h" />
+    <ClInclude Include="ExplicacionIfndef.h" />
+    <ClInclude Include="ExplicacionStatic.h" />
+    <ClInclude Include="ExplicacionTemplates.h" />
+    <ClInclude Include="Gato.h" />
+    <ClInclude Include="Humano.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="ParametrosPorReferenciaComoSalidaDeFuncion.h" />
+    <ClInclude Include="Perro.h" />
+    <ClInclude Include="Pollo.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="SentinelLinkedList.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="StackComposicion.h" />
+    <ClInclude Include="TareaEjemplo.h" />
+    <ClInclude Include="UserLoginData.h" />
+    <ClInclude Include="Usuario.h" />
+    <ClInclude Include="UsuarioAdmin.h" />
+    <ClInclude Include="UsuarioAlumno.h" />
+    <ClInclude Include="UsuarioProfesor.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="WebPacket.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
